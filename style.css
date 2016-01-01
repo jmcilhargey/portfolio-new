@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #f2f2f2;
+}
+
+.navbar-header .navbar-brand,
+.navbar-header .navbar-nav li a,
+.main .caption p {
+  font-size: 18px;
+  color: #333;
+}
+
+.jumbotron {
+  height: 700px;
+  background: url(https://dl.dropboxusercontent.com/u/63260308/Portfolio/Images/desk_background.jpg) no-repeat center center;
+ background-size: cover;
+  margin-bottom: 0;
+}
+
+.jumbotron .container,
+.supporting .container {
+	position: relative;
+	padding: 75px 0;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  margin-top: 100px;
+  color: #fff;
+  text-shadow: 5px 3px #333;
+}
+
+.jumbotron .row {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.jumbotron .col-xs-8 {
+  float: none;
+  margin: auto;
+}
+
+.jumbotron .btn {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin-right: 20px;
+  background-color: rgba(0, 255, 188, 0.5);
+  border: none;
+}
+
+.jumbotron .btn:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.supporting {
+  background-color: #f2f2f2;
+  height: 250px;
+  border-bottom: solid 1px #e7e7e7;
+}
+
+.supporting h2 {
+  margin: 0;
+  font-size: 48px;
+}
+
+.supporting p {
+  font-size: 22px;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-top: solid 1px #e7e7e7;
+  text-align: center;
+}
+
+.footer .container {
+  padding: 30px 0;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
